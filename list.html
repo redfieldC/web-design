@@ -15,9 +15,75 @@
         <dt>
             ameya
         </dt>
+        <dt>
+            kaushik
+        </dt>
         <dd>
             coverfox
         </dd>
     </dl>
+
+    <table border="1">
+        <tr>
+            <th colspan="2">id</th>
+            <th colspan="2">name</th>
+        </tr>
+        <tr>
+            <td colspan="2">1</td>
+            <td colspan="2">ameya</td>
+        </tr>
+        <tr>
+            <td colspan="2">2</td>
+            <td colspan="2">nitish</td>
+        </tr>
+        <tr>
+            <td colspan="2">3</td>
+            <td colspan="2">kaushik</td>
+        </tr>
+        <tr>
+            <td colspan="2">4</td>
+            <td colspan="2">chetna</td>
+        </tr>
+    </table>
+
+    <!--action is for where the data will be displayed after submitting data-->
+    <form  action="register.php">
+        <table>
+            <tr>
+                <th>
+                    <label for="username">username</label>
+                </th>
+                <td>
+                    <input type="text" name="uname" id="username">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="pwd">Password</label>
+                </th>
+                <td>
+                    <input type="password" name="pass" id="pwd" placeholder="password" required />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="phone">Contact</label>
+                </th>
+                <td>
+                    <input type="text" name="contact" id="phone" maxlength="10" size="10">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name="register" value="Register now">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+
+
+
 </body>
 </html>
