@@ -1,2 +1,3 @@
-p{display: inline;
+p{display: inline-block;
+    background: red;
 }
