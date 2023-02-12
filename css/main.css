@@ -7,5 +7,6 @@ p{
     background-color: aqua;
     border: 3px solid purple;
     hyphens: auto;
+    width: 100px;
     /* text-align: center; */
 }
