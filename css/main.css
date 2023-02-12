@@ -3,11 +3,9 @@ h3{
     color: green;
 }
 
-p{
-    background-color: aqua;
-    border: 3px solid purple;
-    hyphens: auto;
-    letter-spacing: 5px;
+
+p.japanese{
     width: 100px;
-    /* text-align: center; */
+    border: 2px solid black;
+    line-break: auto;
 }
