@@ -3,6 +3,9 @@ h3{
     color: green;
 }
 
-.surnamespan{
+p{
     background-color: aqua;
+    border: 3px solid purple;
+    hyphens: auto;
+    /* text-align: center; */
 }
