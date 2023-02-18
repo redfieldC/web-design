@@ -1,0 +1,1 @@
+Null indicates the absence of a value for a variable. Undefined indicates the absence of the variable itself.
