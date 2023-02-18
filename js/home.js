@@ -1,30 +1,10 @@
 let a,b;
 a=2;
-b=3;
+b=5;
 
-let op;
-op="multiply"
 
-var func;
-
-function multiply(a,b){
-    alert(a*b);
+for(iter=1;iter <=10;iter++){
+    console.log(a + "*" + b + "=" + a*b);
+    a++;
+    b++;
 }
-
-function add(a,b){
-    alert(a+b);
-}
-
-if(op=="multiply"){
-    func = multiply;
-}
-
-
-
-else{
-    func = add;
-}
-
-
-
-func(12,34);
