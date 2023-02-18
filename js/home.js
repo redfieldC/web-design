@@ -1,9 +1,30 @@
-var a;
-a=1;
-console.log(a);
+let a,b;
+a=2;
+b=3;
 
-function multiplication(a,b){
+let op;
+op="multiply"
+
+var func;
+
+function multiply(a,b){
     alert(a*b);
 }
 
-multiplication(2,8);
+function add(a,b){
+    alert(a+b);
+}
+
+if(op=="multiply"){
+    func = multiply;
+}
+
+
+
+else{
+    func = add;
+}
+
+
+
+func(12,34);
