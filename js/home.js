@@ -1,10 +1,8 @@
-let a,b;
-a=2;
-b=5;
+let a;
+arr=[1,2,3,4];
 
 
-for(iter=1;iter <=10;iter++){
-    console.log(a + "*" + b + "=" + a*b);
-    a++;
-    b++;
+for(a of arr){
+    console.log(a);
+
 }
