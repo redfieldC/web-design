@@ -1,9 +1,24 @@
-let a;
-arr=[6,1,2,3,4,6,7,98];
+const api = "https://api.exchangerate-api.com/v4/latest/USD";
 
-i=0;
-do{
-    console.log(arr[i]);
-    i++;
+submitButton = document.querySelector(".submitButton");
+inputVal = document.querySelector(".inp");
+
+
+function updateValue(e){
+    searchValue =e.target.value;
 }
-while(i<5)
+
+submitButton.addEventListener("click",getResults);
+
+function getResults(){
+    fetch(api).then(currency => {
+        return currency.json();
+    }).then(displayResults);
+}
+
+function displayResults(currency){
+    let currencyVal;
+    input = inputVal.value;
+    currencyVal = currency.rates[input];
+    console.log(currencyVal)
+}
